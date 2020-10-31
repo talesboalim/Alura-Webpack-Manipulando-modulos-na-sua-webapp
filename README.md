@@ -1,1 +1,2 @@
-# Webpack-Manipulando-modulos-na-sua-webapp
+# Webpack: Manipulando modulos na sua webapp
+Curso Alura
