@@ -10,3 +10,10 @@ Curso Alura
 ./server/npm start
 
 Acessar o endereço no navegador: localhost:8080
+
+##Distribuição
+###Produção
+./client/npm run build-prod
+
+###Desenvolvimento
+./client/npm run build-dev

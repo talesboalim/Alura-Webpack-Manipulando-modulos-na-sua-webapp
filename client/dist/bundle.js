@@ -446,7 +446,7 @@ const config = {
     body
 };
 
-fetch('http://localhost:3000/negociacoes', config).then(() => console.log('Dado enviado com sucesso'));
+fetch(`${"http://localhost:3000"}/negociacoes`, config).then(() => console.log('Dado enviado com sucesso'));
 
 /***/ }),
 /* 14 */
@@ -565,7 +565,7 @@ let NegociacaoController = (_dec = __WEBPACK_IMPORTED_MODULE_2__util_index_js__[
 
                 const service = new NegociacaoService();
 
-                const negociacoes = yield _this3._service.obtemNegociacoesDoPeriodo();
+                const negociacoes = yield service.obtemNegociacoesDoPeriodo();
                 console.log(negociacoes);
                 negociacoes.filter(function (novaNegociacao) {
                     return !_this3._negociacoes.paraArray().some(function (negociacaoExistente) {
